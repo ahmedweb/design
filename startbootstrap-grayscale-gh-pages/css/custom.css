@@ -2,3 +2,67 @@
 .signup-section {
  background:linear-gradient(to bottom,rgba(22,22,22,.1) 0,rgba(22,22,22,.5) 75%,#161616 100%),url(img/bg-signup.jpg);
 }
+
+  .fa, .fab, .fad, .fal, .far, .fas {
+    line-height: 3rem;
+}
+
+.form-inline .form-control { 
+    display: inline-block;
+    width: auto;
+    vertical-align: middle;
+    margin-top: 10px;
+}
+.signup-section {
+    padding: 10rem 0;
+    background: linear-gradient(to bottom,rgba(22,22,22,.1) 0,rgba(22,22,22,.5) 75%,#161616 100%),url(img/demo-image-02.jpg);
+        background-position-x: 0%, 0%;
+        background-position-y: 0%, 0%;
+        background-repeat: repeat, repeat;
+        background-attachment: scroll, scroll;
+        background-size: auto, auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+ 
+}
+.slogan_home{
+  font-size: 5em;/*! background-color: #5e5e5e2b; */color: #2f2a2a;font-weight: bold;font-family: 'Varela Round';font-size: 2.5rem;/*! line-height: 2.5rem; */letter-spacing: .8rem;background: -webkit-linear-gradient(rgba(255,255,255,.9),rgba(255,255,255,0));background-clip: border-box;-webkit-text-fill-color: #ffffff87;-webkit-background-clip: text;
+}
+.masthead {
+
+word-break: break-word;
+
+}
+    #oo0000L{background-color: #0000001f;padding: 60px;}
+/* STYLES mobile */
+@media only screen and (min-device-width : 100px) and (max-device-width : 604px) { 
+
+  .mx-auto.my-0.text-uppercase.slogan_home{
+
+  }
+  #oo0000L{padding: 0px;}
+.mx-auto.text-center {padding: 51px;} .slogan_home {      letter-spacing: 0;}
+  .mx-auto.text-center {
+
+    padding: 0;
+    width: 100%;
+
+}
+  #oo0000L {
+
+    padding: 0px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+
+}
+  .navbar-brand {
+    font-size: 14px !important;}
+  .construisons{font-size: 24px;} 
+}
+
+
+/* STYLES mobile */
